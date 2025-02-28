@@ -1,0 +1,60 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .burger {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  /* Default hidden nav buttons for small screens */
+  .nav-buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+  /* Navbar.css */
+  .logo img {
+    height: 100px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .burger {
+      display: block;
+    }
+  
+    .nav-buttons {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      background: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav-buttons.open {
+      display: flex;
+    }
+  
+      
+  }
+  
