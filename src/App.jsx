@@ -1,13 +1,16 @@
-// App.jsx
 import Navbar from "./Navbar";
-import Menu from "./Menu"
+import Menu from "./Menu";
+import Footer from "./Footer";
 import React from "react";
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Navbar />
-      <Menu />
+      <div className="content">
+        <Menu />
+      </div>
+      <Footer />
     </div>
   );
 }
