@@ -1,0 +1,48 @@
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about-us-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 16px;
+  }
+  
+  .about-us-link {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .about-us-link:hover {
+    color: #1558b1;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-title {
+      font-size: 2rem;
+    }
+  
+    .about-us-content {
+      font-size: 1rem;
+    }
+  }
+  

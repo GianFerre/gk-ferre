@@ -26,7 +26,14 @@ export default function Navbar() {
         <Link to="/about" className="nav-button" onClick={() => setIsOpen(false)}>
           About Us
         </Link>
-        <button className="nav-button order">Order Now</button>
+        <a
+          href="https://www.facebook.com/gk.ferre"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-button order"
+        >
+          Order Now
+        </a>
       </div>
     </nav>
   );
